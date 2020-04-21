@@ -1,0 +1,17 @@
+
+*.js
+*.json
+*.md
+*.txt
+node_modules/yargs-parser/node_modules/camelcase/license
+node_modules/yargs/node_modules/camelcase/license
+*.yml
+node_modules/xtend/.npmignore
+*.pegjs
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
