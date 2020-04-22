@@ -7,6 +7,22 @@ const reducer = (state = intialState, action) => {
             counter: state.counter + 1            
         }
     }
+    if (action.type === 'DECREMENT'){
+            return {
+                counter: state.counter - 1
+            }
+    }
+    if (action.type === 'ADDITION'){
+            return {
+                counter: state.counter + action.val
+            }
+    }
+    if (action.type === 'SUBTRACT'){
+        return {
+            counter: state.counter - action.val
+        }
+    }
+    
     return state
 }
 export default reducer
